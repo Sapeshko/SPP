@@ -1,0 +1,70 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "test_run/1.0.0": {
+        "dependencies": {
+          "LibraryManagerTests": "1.0.0",
+          "lab1_test_framework": "1.0.0"
+        },
+        "runtime": {
+          "test_run.dll": {}
+        }
+      },
+      "lab1_test_framework/1.0.0": {
+        "runtime": {
+          "lab1_test_framework.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "LibraryManagement/1.0.0": {
+        "runtime": {
+          "LibraryManagement.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "LibraryManagerTests/1.0.0": {
+        "dependencies": {
+          "LibraryManagement": "1.0.0",
+          "lab1_test_framework": "1.0.0"
+        },
+        "runtime": {
+          "LibraryManagerTests.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "test_run/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "lab1_test_framework/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LibraryManagement/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LibraryManagerTests/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

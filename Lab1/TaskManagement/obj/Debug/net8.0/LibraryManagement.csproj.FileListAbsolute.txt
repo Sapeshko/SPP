@@ -1,0 +1,11 @@
+C:\Users\User\Desktop\Lab1\TaskManagement\bin\Debug\net8.0\LibraryManagement.deps.json
+C:\Users\User\Desktop\Lab1\TaskManagement\bin\Debug\net8.0\LibraryManagement.dll
+C:\Users\User\Desktop\Lab1\TaskManagement\bin\Debug\net8.0\LibraryManagement.pdb
+C:\Users\User\Desktop\Lab1\TaskManagement\obj\Debug\net8.0\LibraryManagement.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\Lab1\TaskManagement\obj\Debug\net8.0\LibraryManagement.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Lab1\TaskManagement\obj\Debug\net8.0\LibraryManagement.AssemblyInfo.cs
+C:\Users\User\Desktop\Lab1\TaskManagement\obj\Debug\net8.0\LibraryManagement.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Lab1\TaskManagement\obj\Debug\net8.0\LibraryManagement.dll
+C:\Users\User\Desktop\Lab1\TaskManagement\obj\Debug\net8.0\refint\LibraryManagement.dll
+C:\Users\User\Desktop\Lab1\TaskManagement\obj\Debug\net8.0\LibraryManagement.pdb
+C:\Users\User\Desktop\Lab1\TaskManagement\obj\Debug\net8.0\ref\LibraryManagement.dll
