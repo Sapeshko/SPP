@@ -1,0 +1,19 @@
+echo "# Visual Studio temporary files
+.vs/
+bin/
+obj/
+*.user
+*.suo
+*.cache
+*.dll
+*.pdb
+*.exe
+
+# Test logs
+test_log_*.txt
+
+# Build outputs
+**/bin/
+**/obj/
+**/Debug/
+**/Release/" > .gitignore
