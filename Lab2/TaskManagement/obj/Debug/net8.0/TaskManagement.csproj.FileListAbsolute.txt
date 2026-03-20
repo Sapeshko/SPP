@@ -1,0 +1,12 @@
+C:\Users\User\Desktop\SPP_LABS\Lab1\TaskManagement\bin\Debug\net8.0\TaskManagement.deps.json
+C:\Users\User\Desktop\SPP_LABS\Lab1\TaskManagement\bin\Debug\net8.0\TaskManagement.dll
+C:\Users\User\Desktop\SPP_LABS\Lab1\TaskManagement\bin\Debug\net8.0\TaskManagement.pdb
+C:\Users\User\Desktop\SPP_LABS\Lab1\TaskManagement\obj\Debug\net8.0\TaskManagement.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\SPP_LABS\Lab1\TaskManagement\obj\Debug\net8.0\TaskManagement.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\SPP_LABS\Lab1\TaskManagement\obj\Debug\net8.0\TaskManagement.AssemblyInfo.cs
+C:\Users\User\Desktop\SPP_LABS\Lab1\TaskManagement\obj\Debug\net8.0\TaskManagement.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\SPP_LABS\Lab1\TaskManagement\obj\Debug\net8.0\TaskManagement.sourcelink.json
+C:\Users\User\Desktop\SPP_LABS\Lab1\TaskManagement\obj\Debug\net8.0\TaskManagement.dll
+C:\Users\User\Desktop\SPP_LABS\Lab1\TaskManagement\obj\Debug\net8.0\refint\TaskManagement.dll
+C:\Users\User\Desktop\SPP_LABS\Lab1\TaskManagement\obj\Debug\net8.0\TaskManagement.pdb
+C:\Users\User\Desktop\SPP_LABS\Lab1\TaskManagement\obj\Debug\net8.0\ref\TaskManagement.dll

@@ -19,8 +19,8 @@ public class LibraryManagerTestSuite
     {
         var book = _manager.AddBook("1984", "George Orwell", 1949);
 
-        Assertions.IsNotNull(book);
-        Assertions.AreEqual("1984", book.Title);
+        InTest.IsNotNull(book);
+        InTest.AreEqual("1984", book.Title);
     }
 
     [TestAttributes.TestMethod(DisplayName = "Выдача книги")]
@@ -30,8 +30,8 @@ public class LibraryManagerTestSuite
 
         bool result = _manager.BorrowBook(book.Id);
 
-        Assertions.IsTrue(result);
-        Assertions.IsTrue(book.IsBorrowed);
+        InTest.IsTrue(result);
+        InTest.IsTrue(book.IsBorrowed);
     }
 
     [TestAttributes.TestMethod(DisplayName = "Возврат книги")]
@@ -42,9 +42,9 @@ public class LibraryManagerTestSuite
 
         bool returned = _manager.ReturnBook(book.Id);
 
-        Assertions.IsTrue(returned);
-        Assertions.IsFalse(book.IsBorrowed);
-        Assertions.IsNotNull(book.ReturnedAt);
+        InTest.IsTrue(returned);
+        InTest.IsFalse(book.IsBorrowed);
+        InTest.IsNotNull(book.ReturnedAt);
     }
 
     [TestAttributes.TestMethod(DisplayName = "Двойная выдача одной книги")]
@@ -54,8 +54,8 @@ public class LibraryManagerTestSuite
         bool firstBorrow = _manager.BorrowBook(book.Id);
         bool secondBorrow = _manager.BorrowBook(book.Id);
 
-        Assertions.IsTrue(firstBorrow);
-        Assertions.IsFalse(secondBorrow);
+        InTest.IsTrue(firstBorrow);
+        InTest.IsFalse(secondBorrow);
     }
 
     [TestAttributes.TestMethod(DisplayName = "Асинхронный поиск по заголовку")]
@@ -65,7 +65,7 @@ public class LibraryManagerTestSuite
 
         var results = await _manager.SearchBooksAsync("Harry");
 
-        Assertions.CollectionCount(results, 1);
+        InTest.CollectionCount(results, 1);
     }
 
     [TestAttributes.TestMethod(DisplayName = "Асинхронный поиск по автору")]
@@ -75,7 +75,7 @@ public class LibraryManagerTestSuite
 
         var results = await _manager.SearchBooksAsync("Tolkien");
 
-        Assertions.CollectionCount(results, 1);
+        InTest.CollectionCount(results, 1);
     }
 
     [TestAttributes.TestMethod(DisplayName = "Проверка статистики")]
@@ -86,15 +86,15 @@ public class LibraryManagerTestSuite
 
         var stats = _manager.GetStatistics();
 
-        Assertions.AreEqual(1, stats.TotalBooks);
-        Assertions.AreEqual(1, stats.BorrowedBooks);
-        Assertions.AreEqual(0, stats.AvailableBooks);
+        InTest.AreEqual(1, stats.TotalBooks);
+        InTest.AreEqual(1, stats.BorrowedBooks);
+        InTest.AreEqual(0, stats.AvailableBooks);
     }
 
     [TestAttributes.TestMethod(DisplayName = "Добавление книги с некорректным годом должно падать")]
     public void AddBook_InvalidYear_ShouldThrow()
     {
-        Assertions.Throws<LibraryValidationException>(() =>
+        InTest.Throws<LibraryValidationException>(() =>
             _manager.AddBook("Future Book", "Author", DateTime.Now.Year + 1));
     }
 
@@ -107,7 +107,7 @@ public class LibraryManagerTestSuite
         _manager.ReturnBook(book.Id);
 
         var stats = _manager.GetStatistics();
-        Assertions.AreEqual(0, stats.BorrowedBooks);
-        Assertions.AreEqual(1, stats.AvailableBooks);
+        InTest.AreEqual(0, stats.BorrowedBooks);
+        InTest.AreEqual(1, stats.AvailableBooks);
     }
 }

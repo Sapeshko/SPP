@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Desktop\\Lab1\\lab1_test_framework\\Lab1TestFramework.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\SPP\\Lab1\\lab1_test_framework\\Lab1TestFramework.csproj",
       "projectName": "Lab1TestFramework",
-      "projectPath": "C:\\Users\\User\\Desktop\\Lab1\\lab1_test_framework\\Lab1TestFramework.csproj",
+      "projectPath": "C:\\Users\\User\\Desktop\\SPP\\Lab1\\lab1_test_framework\\Lab1TestFramework.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Desktop\\Lab1\\lab1_test_framework\\obj\\",
+      "outputPath": "C:\\Users\\User\\Desktop\\SPP\\Lab1\\lab1_test_framework\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",

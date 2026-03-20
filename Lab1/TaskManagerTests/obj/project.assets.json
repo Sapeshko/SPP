@@ -48,11 +48,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Desktop\\Lab1\\TaskManagerTests\\LibraryManagerTests.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\SPP\\Lab1\\TaskManagerTests\\LibraryManagerTests.csproj",
       "projectName": "LibraryManagerTests",
-      "projectPath": "C:\\Users\\User\\Desktop\\Lab1\\TaskManagerTests\\LibraryManagerTests.csproj",
+      "projectPath": "C:\\Users\\User\\Desktop\\SPP\\Lab1\\TaskManagerTests\\LibraryManagerTests.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Desktop\\Lab1\\TaskManagerTests\\obj\\",
+      "outputPath": "C:\\Users\\User\\Desktop\\SPP\\Lab1\\TaskManagerTests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -69,11 +69,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\User\\Desktop\\Lab1\\lab1_test_framework\\Lab1TestFramework.csproj": {
-              "projectPath": "C:\\Users\\User\\Desktop\\Lab1\\lab1_test_framework\\Lab1TestFramework.csproj"
+            "C:\\Users\\User\\Desktop\\SPP\\Lab1\\lab1_test_framework\\Lab1TestFramework.csproj": {
+              "projectPath": "C:\\Users\\User\\Desktop\\SPP\\Lab1\\lab1_test_framework\\Lab1TestFramework.csproj"
             },
-            "C:\\Users\\User\\Desktop\\Lab1\\TaskManagement\\LibraryManagement.csproj": {
-              "projectPath": "C:\\Users\\User\\Desktop\\Lab1\\TaskManagement\\LibraryManagement.csproj"
+            "C:\\Users\\User\\Desktop\\SPP\\Lab1\\TaskManagement\\LibraryManagement.csproj": {
+              "projectPath": "C:\\Users\\User\\Desktop\\SPP\\Lab1\\TaskManagement\\LibraryManagement.csproj"
             }
           }
         }

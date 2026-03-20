@@ -8,20 +8,17 @@ namespace TestRunner
     {
         static async Task Main(string[] args)
         {
-            Console.WriteLine("ЗАПУСК ТЕСТОВОГО ФРЕЙМВОРКА");
-            Console.WriteLine("============================\n");
 
             try
             {
                 // Получаем базовую директорию
                 string baseDirectory = AppDomain.CurrentDomain.BaseDirectory;
-                Console.WriteLine($"Базовая директория: {baseDirectory}");
 
                 // Ищем сборку с тестами в разных местах
                 string[] possiblePaths = new[]
                 {
                     Path.Combine(baseDirectory, "LibraryManagerTests.dll"),
-                    Path.Combine(baseDirectory, "..", "..", "..", "..", "TaskManagerTests", "bin", "Debug", "net8.0", "LibraryManagerTests.dll"),
+                    Path.Combine(baseDirectory, "..", "..", "..", "..", "bin", "Debug", "net8.0", "LibraryManagerTests.dll"),
                     Path.Combine(Directory.GetCurrentDirectory(), "LibraryManagerTests.dll"),
                     Path.Combine(AppContext.BaseDirectory, "LibraryManagerTests.dll")
                 };
@@ -30,12 +27,10 @@ namespace TestRunner
                 foreach (var path in possiblePaths)
                 {
                     string fullPath = Path.GetFullPath(path);
-                    Console.WriteLine($"Проверяем путь: {fullPath}");
                     
                     if (File.Exists(fullPath))
                     {
                         testAssemblyPath = fullPath;
-                        Console.WriteLine($" Найдено: {fullPath}");
                         break;
                     }
                 }
@@ -49,42 +44,28 @@ namespace TestRunner
                         Console.WriteLine($"  - {Path.GetFullPath(path)}");
                     }
                     
-                    Console.WriteLine("\nНажмите любую клавишу для выхода...");
                     Console.ReadKey();
                     return;
                 }
 
                 // Загружаем сборку с обработкой зависимостей
                 Assembly testAssembly = Assembly.LoadFrom(testAssemblyPath);
-                
-                // Выводим информацию о загруженной сборке
-                Console.WriteLine($"\n Сборка загружена: {testAssembly.FullName}");
+               
                 
                 // Находим все классы с атрибутом TestSuite
                 var testSuiteTypes = testAssembly.GetTypes()
                     .Where(t => t.GetCustomAttribute<TestAttributes.TestSuiteAttribute>() != null)
                     .ToList();
                     
-                Console.WriteLine($"Найдено тестовых наборов: {testSuiteTypes.Count}");
-                foreach (var type in testSuiteTypes)
-                {
-                    var attr = type.GetCustomAttribute<TestAttributes.TestSuiteAttribute>();
-                    Console.WriteLine($"  - {type.Name}: {attr?.Description}");
-                }
+
 
                 // Создаем исполнитель тестов с логированием в файл
                 string logPath = Path.Combine(baseDirectory, $"test_log_{DateTime.Now:yyyyMMdd_HHmmss}.txt");
                 
-                var executor = new TestExecutor(logPath);
+                var executor = new TestMain(logPath);
                 
                 // Запускаем тесты
                 var results = await executor.ExecuteTestsAsync(testAssembly);
-
-                // Выводим детальную статистику
-                Console.WriteLine("\n ДЕТАЛЬНАЯ СТАТИСТИКА:");
-                Console.WriteLine($"Всего тестов: {results.Count}");
-                Console.WriteLine($" Успешно: {results.Count(r => r.IsSuccess)}");
-                Console.WriteLine($" Провалено: {results.Count(r => !r.IsSuccess)}");
                 
                 if (results.Any())
                 {
@@ -94,7 +75,7 @@ namespace TestRunner
 
                 if (results.Any(r => !r.IsSuccess))
                 {
-                    Console.WriteLine("\n⚠ Некоторые тесты не пройдены!");
+                    Console.WriteLine("\n Некоторые тесты не пройдены!");
                     
                     // Показываем детали проваленных тестов
                     Console.WriteLine("\nДетали ошибок:");
@@ -108,11 +89,10 @@ namespace TestRunner
                 }
                 else
                 {
-                    Console.WriteLine("\n Все тесты успешно пройдены!");
+                    Console.WriteLine("\n Все тесты пройдены!");
                     Environment.ExitCode = 0;
                 }
 
-                Console.WriteLine($"\n Лог сохранен в: {logPath}");
             }
             catch (Exception ex)
             {
@@ -124,7 +104,6 @@ namespace TestRunner
                 Environment.ExitCode = -1;
             }
 
-            Console.WriteLine("\nНажмите любую клавишу для выхода...");
             Console.ReadKey();
         }
     }

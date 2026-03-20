@@ -1,0 +1,199 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\SPP\\Lab1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\SPP\\Lab1\\lab1_test_framework\\Lab1TestFramework.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:lab1_test_framework\\Lab1TestFramework.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\SPP\\Lab1\\lab1_test_framework\\InTest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:lab1_test_framework\\InTest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\SPP\\Lab1\\lab1_test_framework\\TestMain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:lab1_test_framework\\TestMain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\SPP\\Lab1\\test_run\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:test_run\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\SPP\\Lab1\\TaskManagement\\LibraryManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TaskManagement\\LibraryManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\SPP\\Lab1\\TaskManagerTests\\LibraryManagerTests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TaskManagerTests\\LibraryManagerTests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\SPP\\Lab1\\TaskManagerTests\\SharedContextLibraryTests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TaskManagerTests\\SharedContextLibraryTests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\SPP\\Lab1\\lab1_test_framework\\TestAttributes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:lab1_test_framework\\TestAttributes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\SPP\\Lab1\\lab1_test_framework\\TestResult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:lab1_test_framework\\TestResult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\SPP\\Lab1\\TaskManagement\\LibraryManagement.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TaskManagement\\LibraryManagement.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\SPP\\Lab1\\test_run\\RunTestst.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:test_run\\RunTestst.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LibraryManager.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\SPP\\Lab1\\TaskManagement\\LibraryManager.cs",
+              "RelativeDocumentMoniker": "TaskManagement\\LibraryManager.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\SPP\\Lab1\\TaskManagement\\LibraryManager.cs",
+              "RelativeToolTip": "TaskManagement\\LibraryManager.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAFYAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T08:32:56.674Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TestResult.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\SPP\\Lab1\\lab1_test_framework\\TestResult.cs",
+              "RelativeDocumentMoniker": "lab1_test_framework\\TestResult.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\SPP\\Lab1\\lab1_test_framework\\TestResult.cs",
+              "RelativeToolTip": "lab1_test_framework\\TestResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T08:32:47.65Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TestMain.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\SPP\\Lab1\\lab1_test_framework\\TestMain.cs",
+              "RelativeDocumentMoniker": "lab1_test_framework\\TestMain.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\SPP\\Lab1\\lab1_test_framework\\TestMain.cs",
+              "RelativeToolTip": "lab1_test_framework\\TestMain.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAIAwwBAAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T08:32:22.468Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TestAttributes.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\SPP\\Lab1\\lab1_test_framework\\TestAttributes.cs",
+              "RelativeDocumentMoniker": "lab1_test_framework\\TestAttributes.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\SPP\\Lab1\\lab1_test_framework\\TestAttributes.cs",
+              "RelativeToolTip": "lab1_test_framework\\TestAttributes.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAIAwwCMAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T08:32:16.64Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "InTest.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\SPP\\Lab1\\lab1_test_framework\\InTest.cs",
+              "RelativeDocumentMoniker": "lab1_test_framework\\InTest.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\SPP\\Lab1\\lab1_test_framework\\InTest.cs",
+              "RelativeToolTip": "lab1_test_framework\\InTest.cs",
+              "ViewState": "AgIAAIAAAAAAAAAAAAAwwJ0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T08:31:21.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\SPP\\Lab1\\test_run\\Program.cs",
+              "RelativeDocumentMoniker": "test_run\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\SPP\\Lab1\\test_run\\Program.cs",
+              "RelativeToolTip": "test_run\\Program.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAEMAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T08:33:55.736Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SharedContextLibraryTests.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\SPP\\Lab1\\TaskManagerTests\\SharedContextLibraryTests.cs",
+              "RelativeDocumentMoniker": "TaskManagerTests\\SharedContextLibraryTests.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\SPP\\Lab1\\TaskManagerTests\\SharedContextLibraryTests.cs",
+              "RelativeToolTip": "TaskManagerTests\\SharedContextLibraryTests.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABgAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T08:33:50.193Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LibraryManagement.csproj",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\SPP\\Lab1\\TaskManagement\\LibraryManagement.csproj",
+              "RelativeDocumentMoniker": "TaskManagement\\LibraryManagement.csproj",
+              "ToolTip": "C:\\Users\\User\\Desktop\\SPP\\Lab1\\TaskManagement\\LibraryManagement.csproj",
+              "RelativeToolTip": "TaskManagement\\LibraryManagement.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-06T17:03:00.15Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Lab1TestFramework.csproj",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\SPP\\Lab1\\lab1_test_framework\\Lab1TestFramework.csproj",
+              "RelativeDocumentMoniker": "lab1_test_framework\\Lab1TestFramework.csproj",
+              "ToolTip": "C:\\Users\\User\\Desktop\\SPP\\Lab1\\lab1_test_framework\\Lab1TestFramework.csproj",
+              "RelativeToolTip": "lab1_test_framework\\Lab1TestFramework.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-06T16:52:29.859Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LibraryManagerTests.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\SPP\\Lab1\\TaskManagerTests\\LibraryManagerTests.cs",
+              "RelativeDocumentMoniker": "TaskManagerTests\\LibraryManagerTests.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\SPP\\Lab1\\TaskManagerTests\\LibraryManagerTests.cs",
+              "RelativeToolTip": "TaskManagerTests\\LibraryManagerTests.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAGMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T08:33:44.633Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RunTestst.csproj",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\SPP\\Lab1\\test_run\\RunTestst.csproj",
+              "RelativeDocumentMoniker": "test_run\\RunTestst.csproj",
+              "ToolTip": "C:\\Users\\User\\Desktop\\SPP\\Lab1\\test_run\\RunTestst.csproj",
+              "RelativeToolTip": "test_run\\RunTestst.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-06T08:30:41.457Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
